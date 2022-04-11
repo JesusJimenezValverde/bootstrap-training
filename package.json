@@ -4,7 +4,8 @@
   "description": "Relearning Bootstrap",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,10 @@
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
+    "less": "^2.7.2",
     "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
   }
 }
